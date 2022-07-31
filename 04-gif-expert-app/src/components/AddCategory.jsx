@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react';
 
 export const AddCategory = ({ onNewCategory }) => {
@@ -25,7 +24,7 @@ export const AddCategory = ({ onNewCategory }) => {
         //Cuando tengo un form no es necesario el fragmento, ya que form es una sola etiqueta que contiene otras.
         //Cuando usamos formulario, este refresca el navegador, entonces para evitar eso se crea una funcion event
         <form onSubmit={onSubmit}>
-            <input type='text' placeholder='Agregar categoria'
+            <input type='text' placeholder='Buscar gif'
                 value={inputValue}
                 onChange={onInputChange}
             />
