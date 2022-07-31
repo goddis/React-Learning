@@ -4,7 +4,7 @@ import { App } from './componentes/HelloWorld'
 import { PrimerComponente } from './componentes/FirstComponent'
 
 //Estilo de la APP
-import './estilos/styles.css'
+import './styles/styles.css'
 import { CounterApp } from './componentes/CounterApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
